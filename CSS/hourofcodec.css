@@ -1,0 +1,45 @@
+body {
+
+    background: #141E30;
+  
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #FFF !important;
+    font-size: 2em;
+    padding-top: 50px;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+  }
+  
+  p {
+    color: aliceblue;
+    line-height: 1.2em;
+    text-align: left;
+    width: 100%;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  .content {
+    padding: 40px;
+  }
+  
+  .image {
+    background-size: cover;
+    background-position: center;
+    height: 515px;
+    width: 981px;
+  }
+  .image img{
+   height: 450px;
+   width: 1348px;
+  }

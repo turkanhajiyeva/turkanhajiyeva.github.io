@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 10;
+    background-color: #ffe4c4;
+    opacity: 100%;
+}
+.imagesler img{
+    height: 600px;
+    width: 1200px;
+}
+.sekiller img{
+    height: 380px;
+    width: 380px;    
+}
+h2{
+    color: #8B4513;
+    font-style: times;
+    text-shadow: 0 0 3px #58380d;
+}
+p{
+    color: #8B4513;
+    font-style: times;
+    font-weight: 3px;
+    text-shadow: 0 0 3px #58380d;
+}
+.eljan{
+    width: 30%;
+    position: absolute;
+    top: 4.28%;
+    Left: 36%;
+}
+.jeyla{
+    width: 30%;
+    position: absolute;
+    top: 4.3%;
+    Left: 72%;
+}
+.el{
+    width: 30%;
+    position: absolute;
+    top: 65.5%;
+    Left: 36%;
+}
+.je{
+    width: 30%;
+    position: absolute;
+    top: 65.5%;
+    Left: 72%;
+}

@@ -1,0 +1,61 @@
+body {
+
+    background: #FFE4C4;  
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    color: #8B4513 !important;
+    font-size: 2em;
+    padding-top: 50px;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+  }
+  
+  p {
+    color: #8B4513;
+    line-height: 1.2em;
+    text-align: left;
+    width: 100%;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  .content {
+    padding: 40px;
+  }
+  
+  .image {
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+   width: 1348px;
+  }
+  .ela{
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    Left: 42%;
+  }
+  .tua{
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    Left: 12%;
+  }
+  .jea{
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    Left: 72%;
+  }
+  .imagefor img{
+    height: 450px;
+    width: 1348px;
+    position: absolute;
+    top: 45%;
+}

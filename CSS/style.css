@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    opacity: 100%;
+}
+a {
+    color: white;
+    font-size: 10px;
+  }
+.header{
+    opacity: 90%;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(https://img.itinari.com/pages/images/original/b1a657c6-ab9c-419b-a01f-18b4ee6aee8f-859736_566333610053089_601075272_o.jpg?ch=DPR&dpr=1&w=1600&s=346ff6f5f90ffd201760a07f7748861a);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header a{
+    font-size:50px;
+}
+    nav{
+        padding:2% 6%;
+
+        background-color: rgb(166, 167, 172);
+        align-items: center;
+    }
+    nav img{
+        width: 150px;
+    }
+    .nav-links{
+        
+        text-align: right;
+    }
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+    .nav-links ul li{    
+        list-style: none;
+
+
+        position: relative;
+    }
+    .nav-links ul li a{
+
+
+        color:darkslategray;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+    }.nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background:gray;
+        display: block;
+        margin: auto;
+    }
+    .nav-links ul li:hover::after{
+        width:100%;
+    }
+    .text-box{
+        background-color: transparent;
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translate(-50, -50);
+        text-align: center;
+    }
+    .text-box h1{
+      
+        font-size: 62px;
+    }
+    .text-box p{
+        margin: 10px 0 40px;
+        font-size: 14px;
+        color:darkblue;
+    }‰
+    .salam{
+        display: inline-block;
+        text-decoration: none;
+        color: darkgray;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    .salam:hover{
+     border: 1px solid ;
+     background: rgb(56, 86, 104);
+     transform: 1s;
+    }
+
+    footer{
+        display: flex;
+        padding:2% 6%;
+        justify-content: space-between;
+        background-color: rgb(36, 15, 15);
+        align-items: left;
+        color:blanchedalmond;
+    }
+.logo{
+    width: 15%;
+    height: 15px;
+    position: absolute;
+    top: 82%;
+    Left: 92.6%;
+}
+.logo img{
+    width: 100px;
+    height:100px;
+}
+.text-box a{
+color:blue;
+font-size: 25px;
+}
